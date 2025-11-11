@@ -235,17 +235,6 @@ export const PathfindingVisualizer = () => {
 
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col">
-      <header className="border-b border-border bg-card shadow-lg">
-        <div className="container mx-auto px-6 py-4">
-          <h1 className="text-3xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Team Warrior – Shortest Path Visualizer
-          </h1>
-          <p className="text-sm text-muted-foreground mt-1">
-            Interactive Algorithm Visualization Tool
-          </p>
-        </div>
-      </header>
-
       <div className="flex-1 container mx-auto px-6 py-6 flex gap-6">
         <div className="flex-1 flex flex-col gap-6">
           <ControlPanel
